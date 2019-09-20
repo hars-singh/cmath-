@@ -44,8 +44,14 @@ int main()
 	// Natural base with 'e' 
 	cout << "Log value of y=100.0 is : " << log(y) << endl; 
 
-  y = 23.426;
-  cout<<"Round off value : "<<round(y)<<endl;
+         y = 23.426;
+         cout<<"Round off value : "<<round(y)<<endl;
+	 
+         //find min among given numbers
+	cout<<"Minimum among 2 6 4 3 and 10"<<fmin(2, 6, 4, 3, 10)<<endl;
+	
+         //find the maximum among given numbers
+	cout<<"Maximum among 2 6 10 4 15 18"<<fmax(2, 6, 10, 4, 15, 18)<<endl;
 
 	return 0; 
 } 
